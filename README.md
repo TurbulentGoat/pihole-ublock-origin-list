@@ -25,6 +25,8 @@ This repository contains a comprehensive blocklist that combines multiple protec
 
 ### For Pi-hole Users
 
+[This guide](https://www.raspberrypi.com/tutorials/running-pi-hole-on-a-raspberry-pi/) is for Raspberry Pis but will work with (most if not all) Debian based Linux distros. I've followed it on a raspberry  pi with Raspi OS and Ubuntu and works fine. 
+
 1. Access your Pi-hole admin panel
 2. Go to **Group Management** → **Lists**
 3. Add this URL:
@@ -37,7 +39,7 @@ This repository contains a comprehensive blocklist that combines multiple protec
 
 ### For uBlock Origin Users
 
-1. Open uBlock Origin settings
+1. Open uBlock Origin settings (get it here https://ublockorigin.com/)
 2. Go to **Filter lists** tab
 3. Scroll to **Import** section
 4. Add this URL:
