@@ -50,6 +50,11 @@ This repository contains a comprehensive blocklist that combines multiple protec
 
 ## Important Notes
 
+To test if it is working, check [this site](https://adblock.turtlecute.org/).  
+You should be somewhere in the high 80% to 100% range  
+<img width="1040" height="738" alt="image" src="https://github.com/user-attachments/assets/de2df3b7-4262-4157-b0ff-15cf94fe1d12" />
+
+
 ### Blocking Level
 - **Type**: Aggressive/Comprehensive
 - **Target Users**: Experienced users
