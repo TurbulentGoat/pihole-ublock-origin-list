@@ -17,7 +17,7 @@ This repository contains a comprehensive blocklist that combines multiple protec
 
 ### Main Blocklist
 - **File**: `multi-list.txt`
-- **Entries**: ~1.1 million domains
+- **Entries**: ~1.1 million domains (Number of gravity domains: 1278058 (1112559 unique domains))
 - **Format**: Mixed (plain domains + uBlock Origin syntax)
 - **Compatibility**: Pi-hole, uBlock Origin, AdGuard, and other DNS filtering tools
 
@@ -26,12 +26,14 @@ This repository contains a comprehensive blocklist that combines multiple protec
 ### For Pi-hole Users
 
 1. Access your Pi-hole admin panel
-2. Go to **Group Management** → **Adlists**
+2. Go to **Group Management** → **Lists**
 3. Add this URL:
    ```
    https://raw.githubusercontent.com/TurbulentGoat/pihole-ublock-origin-list/refs/heads/main/multi-list.txt
    ```
-4. Click **Add** and then **Update Gravity**
+4. Click **Add blocklist**
+5. Go to **Tools** → **Update Gravity**
+6. Click **Update**
 
 ### For uBlock Origin Users
 
@@ -43,13 +45,6 @@ This repository contains a comprehensive blocklist that combines multiple protec
    https://raw.githubusercontent.com/TurbulentGoat/pihole-ublock-origin-list/refs/heads/main/multi-list.txt
    ```
 5. Click **Apply changes**
-
-### For AdGuard Users
-
-1. Open AdGuard settings
-2. Go to **DNS filtering** → **DNS blocklists**
-3. Click **Add a custom list**
-4. Enter the raw GitHub URL and save
 
 ## Important Notes
 
